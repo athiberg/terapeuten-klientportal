@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "functions": {
+    "app/api/**/route.js": { "maxDuration": 10 },
+    "app/api/**/route.ts": { "maxDuration": 10 }
+  }
+}
